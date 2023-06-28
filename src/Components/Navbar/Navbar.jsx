@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <div className='navbar flex justify-between items-center p-[3rem]'>
+        <div className='navbar sm:flex justify-between items-center p-[3rem]'>
             <div className="logoDiv">
                 <h1 className="logo text-[23px] text-greenColor">
                     emprega<strong>Já</strong></h1>

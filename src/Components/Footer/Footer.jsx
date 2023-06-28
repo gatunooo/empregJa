@@ -6,7 +6,7 @@ import { BsFacebook } from 'react-icons/bs';
 const Footer = () => {
     return(
         <div className='footer p-[5rem] mb-4 bg-greenColor rounded-[10px] gap-10
-        grid grid-cols-5 m-auto items-center justify-center'>
+        sm:grid grid-cols-5 m-auto items-center justify-center'>
         <div>
             <div className='logoDiv'>
             <h1 className='logo text-[23px] text-white'>

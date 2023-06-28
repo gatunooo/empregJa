@@ -6,7 +6,7 @@ const Value = () => {
         <div className="mb-[4rem] mt-[6rem]">
             <h1 className="text-textColor text-[25px] py-[2rem] pb-[3rem] font-bold w-[400px] block">Nossos Valores</h1>
 
-            <div className="grid gap-[10rem] grid-cols-3 items-center">
+            <div className="sm:grid gap-[10rem] grid-cols-3 items-center">
                 <div className="grid rounded-[10px] hover:bg-[#eeedf7] p-[1.5rem]">
                     <div className="flex items-center gap-3">
                         <div className="img p-[4px] rounder-[.8rem] bg-inherit-[#dede8f] h-[40px] w-[40px] flex items-center justify-center">
@@ -44,7 +44,7 @@ const Value = () => {
                 </div>
             </div>
 
-           <div className="card mt-[2rem] flex justify-between bg-greenColor p-[5rem] rounded-[10px]">
+           <div className="card mt-[2rem] sm:flex justify-between bg-greenColor p-[5rem] rounded-[10px]">
            <div>
                 <h1 className="text-black text-[28px] font-bold">Temos empresas esperando por você</h1>
                 <h2 className="text-green-800 text-[25px] font-bold">Vamos lá?</h2>

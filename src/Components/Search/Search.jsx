@@ -9,7 +9,7 @@ import { CiLocationOn } from 'react-icons/ci'
 
 const Search = () => {
     return (
-        <div className='search grid gap-10 bg-greyIsh rounded-[10] p-[3rem]'>
+        <div className='search sm:grid gap-10 bg-greyIsh rounded-[10] p-[3rem]'>
             <form action="">
                 <div className='div flex justify-between items-center rounded-[8px] gap-[10x] bg-white p-5 shadow-lg shadhow-greyIsh-700'>
                     <div className='flex gap-2 items-center'>
@@ -33,12 +33,12 @@ const Search = () => {
                             hover:text-textColor icon'/>
                     </div>
 
-                    <button className=' bg-greenColor h-full p-5 rounded-[10px] text-white
+                    <button className='bg-greenColor h-full p-5 rounded-[10px] text-white
                     cursor-pointer hover:bg-green-500'>Pesquisar</button>
                 </div>
             </form> 
 
-            <div className='secDiv text-[13px] flex items-center gap-10 justify-center'>
+            <div className='secDiv text-[13px] sm:flex items-center gap-10 justify-center'>
                 <div className='singleSearch flex items-center gap-2'>
                     <label htmlFor="relevance" className='text-[#808080] font-semibold'>Ordenar por:</label>
 
@@ -50,7 +50,7 @@ const Search = () => {
 
                 </div>
 
-                <div className='singleSearch flex items-center gap-2'>
+                <div className='singleSearch items-center gap-2'>
                     <label htmlFor="type" className='text-[#808080] font-semibold'>Ordenar por:</label>
 
                     <select name="" id="type" className='bg-white rounded-[3px] px-4 py-1'>
@@ -61,7 +61,7 @@ const Search = () => {
 
                 </div>
 
-                <div className='singleSearch flex items-center gap-2'>
+                <div className='singleSearch items-center gap-2'>
                     <label htmlFor="level" className='text-[#808080] font-semibold'>Ordenar por:</label>
 
                     <select name="" id="level" className='bg-white rounded-[3px] px-4 py-1'>
