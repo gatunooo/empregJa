@@ -1,4 +1,7 @@
 import React from "react";
+import heart from "../../Assets/heart.png";
+import friendship from "../../Assets/friendship.png"
+import process from "../../Assets/process.png"
 
 
 const Value = () => {
@@ -10,7 +13,7 @@ const Value = () => {
                 <div className="grid rounded-[10px] hover:bg-[#eeedf7] p-[1.5rem]">
                     <div className="flex items-center gap-3">
                         <div className="img p-[4px] rounder-[.8rem] bg-inherit-[#dede8f] h-[40px] w-[40px] flex items-center justify-center">
-                            <img src="src\Assets\heart.png" alt="Coração" />
+                            <img src={heart} alt="Coração" />
                         </div>
                         <span className="font-semibold text-black text-[18px]">Cuidado</span>
                     </div>
@@ -22,7 +25,7 @@ const Value = () => {
                 <div className="grid rounded-[10px] hover:bg-[#eeedf7] p-[1.5rem]">
                     <div className="flex items-center gap-3">
                         <div className="img p-[4px] rounder-[.8rem] bg-inherit-[#dede8f] h-[40px] w-[40px] flex items-center justify-center">
-                            <img src="src\Assets\friendship.png" alt="Incentivo" />
+                            <img src={friendship} alt="Incentivo" />
                         </div>
                         <span className="font-semibold text-black text-[18px]">Incentivo</span>
                     </div>
@@ -34,7 +37,7 @@ const Value = () => {
                 <div className="grid rounded-[10px] hover:bg-[#eeedf7] p-[1.5rem]">
                     <div className="flex items-center gap-3">
                         <div className="img p-[4px] rounder-[.8rem] bg-inherit-[#dede8f] h-[40px] w-[40px] flex items-center justify-center">
-                            <img src="src\Assets\process.png" alt="Transparencia" />
+                            <img src={process} alt="Transparencia" />
                         </div>
                         <span className="font-semibold text-black text-[18px]">Transparente</span>
                     </div>
