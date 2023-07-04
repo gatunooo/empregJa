@@ -1,7 +1,7 @@
 import React from "react";
 import heart from "../../Assets/heart.png";
-import friendship from "../../Assets/friendship.png"
-import process from "../../Assets/process.png"
+import friendship from "../../Assets/friendship.png";
+import process from "../../Assets/process.png";
 
 
 const Value = () => {
