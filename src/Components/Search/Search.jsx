@@ -14,21 +14,21 @@ const Search = () => {
                 <div className='div sm:flex justify-between items-center rounded-[8px] gap-[10x] bg-white p-5 shadow-lg shadhow-greyIsh-700'>
                     <div className='flex gap-2 items-center py-1'>
                         <AiOutlineSearch className='text-[25px] icon'/>
-                        <input type="text" className='bg-transparent text-greenColor focus:outline-none w-[100%]' placeholder='Pesquise por vagas...' />
+                        <input type="text" className='bg-transparent text-greenColor focus:outline-none w-[100%] placeholder:text-[15px]' placeholder='Pesquise por vagas...' />
                             <AiOutlineCloseCircle className='text-[30px] text-[#a5a6a6]
                             hover:text-textColor icon'/>
                     </div>
 
                     <div className='flex gap-2 items-center py-1'>
                         <BsHouseDoor className='text-[25px] icon'/>
-                        <input type="text" className='bg-transparent text-greenColor focus:outline-none w-[100%]' placeholder='Pesquise por empresa...' />
+                        <input type="text" className='bg-transparent text-greenColor focus:outline-none w-[100%] placeholder:text-[15px]' placeholder='Pesquise por empresa...' />
                             <AiOutlineCloseCircle className='text-[30px] text-[#a5a6a6]
                             hover:text-textColor icon'/>
                     </div>
 
                     <div className='flex gap-2 items-center py-1'>
                         <CiLocationOn className='text-[25px] icon'/>
-                        <input type="text" className='bg-transparent text-greenColor focus:outline-none w-[100%]' placeholder='Pesquise por localidade...' />
+                        <input type="text" className='bg-transparent text-greenColor focus:outline-none w-[100%] placeholder:text-[15px]' placeholder='Pesquise por localidade...' />
                             <AiOutlineCloseCircle className='text-[30px] text-[#a5a6a6]
                             hover:text-textColor icon'/>
                     </div>
