@@ -48,7 +48,7 @@ const Value = () => {
             </div>
 
            <div className="card mt-[2rem] sm:flex justify-between bg-greenColor p-[5rem] rounded-[10px]">
-           <div>
+           <div className="py-2">
                 <h1 className="text-black text-[28px] font-bold">Temos empresas esperando por você</h1>
                 <h2 className="text-green-800 text-[25px] font-bold">Vamos lá?</h2>
            </div>

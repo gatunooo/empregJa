@@ -14,11 +14,11 @@ const Footer = () => {
             </h1>
 
             </div>
-            <p className='text-white pb-[10px] text-[15px] opacity-80 leading-7'>
+            <p className='text-white pb-[10px] text-[15px] py-5 opacity-80 leading-7'>
                 Nosso objetivo sempre será o seu maior sonho. Sempre ajudamos candidatos a acharem as melhores empresas de acordo com o seu perfil.
             </p>
         </div>
-            <div className='grid'>
+            <div className='grid py-5'>
                 <span className='divTitle text-[18px] font-semibold pb-[1.5rem]  text-white'>
                     Empresa
                 </span>
@@ -30,7 +30,7 @@ const Footer = () => {
 
                 </div>
             </div>
-            <div className='grid'>
+            <div className='grid py-5'>
                 <span className='divTitle text-[18px] font-semibold pb-[1.5rem]  text-white'>
                     Parcerias
                 </span>
@@ -42,7 +42,7 @@ const Footer = () => {
 
                 </div>
             </div>
-            <div className='grid'>
+            <div className='grid py-5'>
                 <span className='divTitle text-[18px] font-semibold pb-[1.5rem]  text-white'>
                     Comunidade
                 </span>
